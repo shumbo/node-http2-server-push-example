@@ -1,0 +1,20 @@
+{
+  "name": "http2serverpushtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js",
+    "client": "node client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http2": "^3.3.7"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
